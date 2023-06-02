@@ -1,0 +1,123 @@
+
+/* // `xxl` applies to x-large devices ( */
+@media (max-width: 1399.98px) { }
+
+/* // `xl` applies to large devices  */
+@media (max-width: 1199.98px) { }
+
+/* // `lg` applies to medium devices  */
+@media (max-width: 991.98px) { }
+
+/* // `md` applies to small devices  */
+@media (min-width: 767.98px) and (max-width:991px){ 
+    .navbar-toggler{
+        margin-bottom: 17px !important;
+    }
+    .fa-solid, .fas {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color: white !important;
+       
+    }
+}
+
+/* // `sm` applies to x-small devices  */
+@media (max-width: 575.98px) {
+    /* header css  */
+    .header_top_right{
+        justify-content: flex-start !important;
+    }
+    #navbarNav ul{
+        padding: 0!important;
+        text-align: center !important;
+    }
+    .nv_contnr{
+        display: flex;
+        align-items: center !important;
+    }
+    .navbar-toggler{
+        margin-bottom: 10px;
+        border: none;
+    }
+    .navbar-toggler i{
+        font-size: 20px;
+    color: white;
+    }
+    /* header css  */
+
+ /* banner css  */
+ .banner_contant{
+    padding: 100px 0 !important;
+}
+.slick_slid i{
+    display: none !important;
+}
+
+.banner_text h3{
+    font-size: 15px !important;
+}
+.banner_text span{
+    font-size: 10px!important;
+}
+.banner_btn a {
+	font-size: 10px !important;
+}
+.find_link {
+	padding: 12px 15px !important;
+}
+.find_link a {
+	font-size: 15px !important;
+}
+ /* banner css  */
+
+/* form part css  */
+.find_home_btn{
+    top: -55px !important;
+}
+.find_home_contant {
+	padding: 20px !important;
+}
+.selector {
+	padding-bottom: 10px !important;
+}
+.grow_head h1 {
+	font-size: 20px !important;
+}
+.grow_head p {
+	font-size: 10px !important; 
+	padding: 40px 10px !important;
+}
+.grow_item_head h3 {
+	font-size: 13px !important;
+}
+.grow_item_bdy {
+	display: flex !important;
+flex-direction: column !important;
+padding: 0 !important;
+}
+
+.grow_item_btm ul li a p {
+	display: none !important;
+}
+/* form part css  */
+
+
+
+
+
+
+
+
+/* contact part css  */
+.contact_item_head{
+    text-align: center !important;
+}
+/* contact part css  */
+
+
+
+
+
+
+
+}
